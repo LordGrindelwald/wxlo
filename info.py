@@ -81,11 +81,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', '')
-UPDATES_LINK = environ.get('UPDATES_LINK', '')
-FILMS_LINK = environ.get('FILMS_LINK', '')
-TUTORIAL = environ.get("TUTORIAL", "")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/norFedSupport')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/norFedUpdates')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/norMovies')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/norFederation")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/norFederation")
 
 # Bot settings
 TIME_ZONE = environ.get('TIME_ZONE', 'Asia/Colombo') 
