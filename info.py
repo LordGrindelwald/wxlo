@@ -39,7 +39,7 @@ BOT_ID = BOT_TOKEN.split(":")[0]
 PORT = int(environ.get('PORT', '80'))
 PICS = (environ.get('PICS', 'https://i.ibb.co/xKDFdqZr/Photoroom-20250626-135928021-1.png')).split()
 # Bot Admins
-ADMINS = environ.get('ADMINS', '6909365769')
+ADMINS = environ.get('ADMINS', '6909365769 7683268664 7269579203')
 if len(ADMINS) == 0:
     logger.error('ADMINS is missing, exiting now')
     exit()
